@@ -34,7 +34,7 @@ namespace GongSolutions.Shell.Interop
         S_FALSE = 1,
         E_NOINTERFACE = unchecked((int)0x80004002),
         E_NOTIMPL = unchecked((int)0x80004001),
-        OLE_E_ADVISENOTSUPPORTED = unchecked((int)80040003),
+        OLE_E_ADVISENOTSUPPORTED = unchecked((int)0x80040003),
         MK_E_NOOBJECT = unchecked((int)0x800401E5),
     }
 }
