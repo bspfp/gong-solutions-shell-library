@@ -1,0 +1,10 @@
+/.vs/
+/Examples/FileDialog/bin/
+/Examples/FileDialog/obj/
+/Examples/ShellExplorer/bin/
+/Examples/ShellExplorer/obj/
+/Shell/bin/
+/Shell/obj/
+/Tests/ShellTest/bin/
+/Tests/ShellTest/obj/
+/packages/*
