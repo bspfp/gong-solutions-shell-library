@@ -101,7 +101,8 @@ namespace GongSolutions.Shell
         {
             if (m_Current == 0)
             {
-                throw new InvalidOperationException("Cannot navigate back");
+                // throw new InvalidOperationException("Cannot navigate back");
+                return m_History[0];
             }
             return m_History[--m_Current];
         }
@@ -124,7 +125,8 @@ namespace GongSolutions.Shell
         {
             if (m_Current == m_History.Count - 1)
             {
-                throw new InvalidOperationException("Cannot navigate forward");
+                // throw new InvalidOperationException("Cannot navigate forward");
+                return m_History[m_Current];
             }
             return m_History[++m_Current];
         }
